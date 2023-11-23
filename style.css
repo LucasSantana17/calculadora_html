@@ -23,6 +23,16 @@ body{
     flex-direction: column;
 }
 
+.fundo{
+    background-image: url(/img/newimg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 340px;
+    border-radius: 10%;
+}
+
 #name{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
@@ -41,10 +51,15 @@ body{
 }
 
 .botao{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: white;
     gap: 10px;
     width: 50px;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 40%;
     border:none;
     margin:1px;
 }
